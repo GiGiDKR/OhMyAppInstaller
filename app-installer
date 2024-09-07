@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd $HOME/.App-Installer
+git reset --hard HEAD
+git pull
+chmod +x *
+./install.sh
